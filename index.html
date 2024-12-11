@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <img
+          src="images/WhatsApp Image 2024-12-10 at 19.44.29.jpeg"
+          alt="Beautiful Image"
+        />
+      </div>
+
+      <!-- Right Side: Form -->
+      <div class="right-side">
+        <form action="#" method="POST">
+          <h2>Call Form</h2>
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message here"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit">Send to Call</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
